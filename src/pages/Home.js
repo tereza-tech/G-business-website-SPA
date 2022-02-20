@@ -15,6 +15,9 @@ const Home = () => {
           <Link to="/landingpage">LandingPage</Link>
         </li>
         <li>
+          <Link to="/darkpage">DarkPage</Link>
+        </li>
+        <li>
           <Link to="/pluginfilecover1">Pluginfilecover1</Link>
         </li>
       </ul>

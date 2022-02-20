@@ -1,5 +1,6 @@
 import React from "react";
 import Pluginfilecover1 from "./pages/Pluginfilecover1";
+import DarkPage from "./pages/DarkPage";
 import LandingPage from "./pages/LandingPage";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
@@ -12,6 +13,7 @@ const ProjectRoutes = () => {
         <Route path="/" element={<Home />} />
         <Route path="*" element={<NotFound />} />
         <Route path="/landingpage" element={<LandingPage />} />
+        <Route path="/darkpage" element={<DarkPage />} />
         <Route path="/pluginfilecover1" element={<Pluginfilecover1 />} />
       </Routes>
     </Router>
